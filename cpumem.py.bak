@@ -14,7 +14,7 @@ import signal
 cpuPercent = 100
 memPercent = 0
 changedFlag = True
-chenyuewuTest= "999.999.999.199"
+
 class cpuThread (threading.Thread):
     def __init__(self, threadID, name):
         threading.Thread.__init__(self)
